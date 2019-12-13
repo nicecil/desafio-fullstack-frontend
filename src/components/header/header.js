@@ -1,7 +1,6 @@
 import React from 'react';
 import {Grid, Paper, Button, IconButton, InputBase, Divider} from '@material-ui/core'
 import PersonIcon from '@material-ui/icons/Person';
-import MenuIcon from '@material-ui/icons/Menu';
 import SearchIcon from '@material-ui/icons/Search';
 import TuneIcon from '@material-ui/icons/Tune';
 import HomeIcon from '@material-ui/icons/Home';

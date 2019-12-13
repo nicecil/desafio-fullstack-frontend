@@ -24,6 +24,9 @@ const useStyles = makeStyles({
     backgroundColor: "#e9e9e9"
   },
 
+  statusColor: {
+    color: "#36bb25"
+  },
   table: {
     padding: '50 px',
     minWidth: 650,
@@ -134,7 +137,8 @@ export default function UserTable(props) {
                           <TableCell align="center">{row.inclusion}</TableCell>
                           <TableCell align="center">{row.modified}</TableCell>
                           <TableCell align="center">{row.rules}</TableCell>
-                          <TableCell align="center">{row.status}</TableCell>
+                          <TableCell align="center" style={{color:'#36bb25', fontWeight:700}}>
+                            {row.status}</TableCell>
                           <TableCell align="right">
                             <IconButton size="small">
                               <MoreHorizIcon/>
