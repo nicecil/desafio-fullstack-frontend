@@ -9,8 +9,6 @@ import MoreHorizIcon from '@material-ui/icons/MoreHoriz';
 
 const useStyles = makeStyles({
   root: {
-    // width: '100%',
-    // overflowX: 'auto',
     margin: 50
 
   },
@@ -99,11 +97,16 @@ export default function UserTable(props) {
                 <TableCell className={classes.tableHeader}
                            align="left"
                            padding='none'>EMAIL</TableCell>
-                <TableCell className={classes.tableHeader} align="left">DATA DE INCLUSÃO</TableCell>
-                <TableCell className={classes.tableHeader} align="center">DATA DE ALTERAÇÃO</TableCell>
-                <TableCell className={classes.tableHeader} align="center">REGRAS</TableCell>
-                <TableCell className={classes.tableHeader} align="center">STATUS</TableCell>
-                <TableCell className={classes.tableHeader} align="right">AÇÕES</TableCell>
+                <TableCell className={classes.tableHeader} align="left">
+                  DATA DE INCLUSÃO</TableCell>
+                <TableCell className={classes.tableHeader} align="center">
+                  DATA DE ALTERAÇÃO</TableCell>
+                <TableCell className={classes.tableHeader} align="center">
+                  REGRAS</TableCell>
+                <TableCell className={classes.tableHeader} align="center">
+                  STATUS</TableCell>
+                <TableCell className={classes.tableHeader} align="right">
+                  AÇÕES</TableCell>
               </TableRow>
             </TableHead>
             <TableBody className={classes.tableBody}>
@@ -157,7 +160,8 @@ export default function UserTable(props) {
             outerButtonCount={0}
             nextPageLabel={"Próximo"}
             previousPageLabel={"Anterior"}
-            onClick={(e, offset) => handleChangeOffset(e, offset)}
+            onClick={(e, offset) =>
+                handleChangeOffset(e, offset)}
         />
       </div>
   );

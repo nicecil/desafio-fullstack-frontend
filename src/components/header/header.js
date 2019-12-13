@@ -16,7 +16,6 @@ const style = {
   },
   Grid: {
     backgroundColor: '#f5f5f5',
-    // justifyContent: 'space-around'
     marginLeft: 50,
     paddingTop: 20,
     paddingBottom: 20,
@@ -31,19 +30,10 @@ const style = {
   }
 }
 const classes = {
-  root: {
-    // padding: '2px 4px',
-    // display: 'flex',
-    // alignItems: 'center',
-    // flexGrow: 1
-  },
   input: {
     flex: 1,
     height: 400
-  },
-  iconButton: {
-    padding: 10,
-  },
+  }
 }
 
 
