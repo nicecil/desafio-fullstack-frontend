@@ -2,7 +2,6 @@ import React from 'react';
 import './App.css';
 import UserTable from "./components/table/table";
 import TableData from "./mocks/mocks"
-import EnhancedTable from "./components/table/table_example";
 import {Button} from "@material-ui/core"
 import Header from "./components/header/header"
 
