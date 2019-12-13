@@ -62,7 +62,7 @@ export default (props) => {
                 container
                 item
                 spacing={2}
-                xs={7}
+                xs={8}
             >
               <Grid item>
                 <Button variant="contained" color="secondary" style={style.Button}>
@@ -73,6 +73,7 @@ export default (props) => {
               <Grid item>
                 <Paper component="form">
                   <InputBase
+                      style = {{paddingLeft: '15px'}}
                       className={classes.input}
                       placeholder="Pesquisar..."
                       inputProps={{'aria-label': 'Pesquisar...'}}
@@ -86,10 +87,11 @@ export default (props) => {
             </Grid>
 
             <Grid
+                direction={"row"}
                 container
                 item
                 spacing={2}
-                xs={5}
+                xs={4}
             >
               <Grid item>
                 <Button variant="contained" color="#ffffff" style={style.Button}>
